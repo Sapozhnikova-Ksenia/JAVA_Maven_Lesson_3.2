@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class SocialNetwork {
+public class PostSocialNetwork {
     private String id;
     private String namePostingCompany;
     private String urlOfPostingCompany;
@@ -10,11 +10,14 @@ public class SocialNetwork {
     private String textPost;
     private String urlPicture;
     private String urlVideo;
-    private String urlToPost;
+    private String urlBodyPost;
     private int viewCounter;
     private String hashtag;
-    public String textUserInComment;
-    private String textAnswerPostingCompanyInComments;
+    private String textComment;
+    private int dateComment;
+    private int timeComment;
+    private int counterLikePost;
+    private int counterRepostPost;
 
     //+getters/setters
 }
