@@ -15,5 +15,4 @@ public class CommentsPost {
     private boolean canOwnerCloseComment;
     private boolean canOwnerOpenComment;
 
-
 }
