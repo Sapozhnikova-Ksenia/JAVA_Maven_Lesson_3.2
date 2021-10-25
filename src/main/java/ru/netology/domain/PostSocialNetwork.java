@@ -1,6 +1,8 @@
 package ru.netology.domain;
 
 public class PostSocialNetwork {
+    private boolean canAddedPost;
+    private boolean canDeletePost;
     private String idPost;
     private String postType;
     private String idOwnerPage;
@@ -15,18 +17,12 @@ public class PostSocialNetwork {
     private String urlVideo;
     private String urlBodyPost;
     private int viewCounter;
-    private String hashtag;
+    private String urlPictureAvatarAuthorPost;
+
+    private LikesPost likesPost;
+    private MarkPost markPost;
     private CommentsPost commentsPost;
     private Geolocation geolocation;
-    private int counterLikePost;
-    private boolean canLokePost;
-    private int counterRepostPost;
-    private boolean canRepostPost;
-    private boolean canDeletePost;
-    private boolean canDeleteComment;
-    private boolean addedFavourite;
-    private int counterAddedInFavourite;
-
-
+    private Place place;
     //+getters/setters
 }

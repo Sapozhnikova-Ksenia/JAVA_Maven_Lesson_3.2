@@ -4,35 +4,45 @@ import ru.netology.domain.PostSocialNetwork;
 
 public class PostSocialNetworkManager {
 
-    private PostSocialNetwork[] postSocialNetworks;
+    private PostSocialNetworkManager managers;
 
-    public PostSocialNetwork[] searchPostToId(String idPost) {
+    public String searchPostToId() {
+        PostSocialNetwork[] postSocialNetworks = PostSocialNetworkManager.searchPostToId();
         //add logic
-        return null;
+
+        return idPost;
     }
 
-    public PostSocialNetwork[] searchPostToNamePostingCompany(String namePostingCompany) {
+    public String searchPostToNamePostingCompany() {
+        PostSocialNetwork[] postSocialNetworks = PostSocialNetworkManager.searchPostToNamePostingCompany();
         //add logic
-        return null;
+
+        return namePostingCompany;
     }
 
-    public PostSocialNetwork[] searchPostToDatePost(int datePost) {
+    public String searchPostToDatePost() {
+        PostSocialNetwork[] postSocialNetworks = PostSocialNetworkManager.searchPostToDatePost() {
+            //add logic + added method with search to use "int datePost"
+        }
         //add logic
-        return null;
+        return idPost;
     }
 
-    public PostSocialNetwork[] searchPostToTextPost(String textPost) {
-        //add logic
-        return null;
-    }
+    public String searchPostToTextPost(String textPost) {
+        PostSocialNetwork[] postSocialNetworks = PostSocialNetworkManager.searchPostToTextPost() {
+        //add logic + added method with search to use "String textPost"
+            return idPost;
+        }
 
-    public void deletePost() {
-        //add logic
-    }
+        public void deletePost (String idPost) {
+            //add logic
+        }
 
-    ;
+        public void deleteComment (String idComment) {
+            //add logic
+        }
 
-    public void deleteComment() {
-        //add logic
+        public void deleteMarkPost (String id) {
+            //add logic
+        }
     }
-}
