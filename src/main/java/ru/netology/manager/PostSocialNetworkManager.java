@@ -4,14 +4,14 @@ import ru.netology.domain.PostSocialNetwork;
 
 public class PostSocialNetworkManager {
 
-    private PostSocialNetworkManager managers;
+    public PostSocialNetwork[] postSocialNetworks;
 
-    public PostSocialNetwork[] search(String idPost) {
+    public PostSocialNetwork[] search(String idPost,String idAuthorPost, String idOwnerPage, String urlOfPostingCompany, String query, boolean ownersOnly, int count, int offset) {
         //add logic
         return null;
     }
 
-    public void deletePost(String idPost) {
+    public void deletePost(String idPost,String idAutorPost) {
 //            //add logic
     }
 
